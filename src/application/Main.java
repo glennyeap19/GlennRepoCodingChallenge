@@ -12,6 +12,8 @@ public class Main extends Application {
 		try {
 			BorderPane root = new BorderPane();
 			Scene scene = new Scene(root,400,400);
+			primaryStage.setScene(scene);
+			primaryStage.setTitle("Glenn's Project");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
